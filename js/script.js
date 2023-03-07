@@ -15,10 +15,10 @@
 // Infine scrivi sulla pagina che la password è composta in questo modo
 // `nomecognomecolorepreferito21`
 
-    let passWord = `La password suggerita risulta essere ${userName}${lastName}${colorUser}21`;
+    let passWord = `La password suggerita risulta essere: ${userName}${lastName}${colorUser}21`;
     console.log (passWord, typeof passWord);
 
 
 // Trascriviamo in html la password suggerita dall'algoritmo
 
-    document.getElementById ('pass-generate').innerHTML = `La password suggerita dall'algoritmo è ${passWord}`;
+    document.getElementById ('pass-generate').innerHTML = passWord;
